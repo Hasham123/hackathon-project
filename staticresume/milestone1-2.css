@@ -1,0 +1,331 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+.topnav  {
+    background-color: #333;
+    /* overflow: hidden; */
+    text-align: center;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2px 9%;
+    text-decoration: none;
+    font-size: 25px;
+    margin: auto;
+  width: 98%;
+  border-radius: 10%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 15px #9ecaed;
+    }
+   
+.resume-container {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 5px;
+    background-color: rgb(227, 240, 240);
+    box-shadow: 0 4px 8px rgba(219, 227, 235, 0.1);
+    border-radius: 2%;
+}
+
+header {
+    text-align: center;
+}
+
+#profile-picture {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border-color: #000000;
+    box-shadow:#000000; ;
+}
+
+h2 {text-align: center;
+    color: #333;
+    border-bottom: 5px solid #cabebe;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    /* border: none; */
+    /* padding: 10px 20px
+ */
+ border: 5px solid #c7b8e9;;
+    border-radius: 7px;
+}
+h2:focus{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 15px #9ecaed;
+    border-radius: 50px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #4d4b4b;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #cabebe;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Apply Poppins for headings (Education, Work Experience, Skills) */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Use Roboto for the text inside each section */
+#education p, #work-experience p, #skills li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Style for individual list items in Skills section */
+#skills ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjusting padding and margins for a cleaner look */
+section {
+    margin-bottom: 20px;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #333;
+    font-size: 1rem;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Default styling for the switch theme button */
+#switch-theme {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+    
+
+#switch-theme:hover {
+    background-color: #555;
+}
+
+/* Dark theme styles */
+.dark-theme {
+    background-color: rgba(0, 0, 0, 0.9);
+     
+    color: #cabebe;
+    filter: blur(0px);
+}
+
+.dark-theme h2 {
+      
+    color: #cabebe;
+}
+.dark-theme h1 {
+    color:  rgb#cabebe;}
+
+.dark-theme p { color:rgb(255, 255, 255) ;}
+.dark-theme li {
+    color: rgb(43, 13, 173);
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#ececec;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#dad5d5
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:3px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#c6c8d3
+}
+.copyright-text
+{
+  margin:0
+  /* color : #e2e2e2; */
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:50%;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#484b50;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#484b50;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:50%;
+    font-weight:600
+  }
+}
