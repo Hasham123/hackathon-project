@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+    padding: 20px;
+    color: #000000;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(227, 240, 240);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#resume-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eaeaea;
+}
+
+#resume-section p, #resume-section ul {
+    background-color: rgb(243, 217, 217);
+    padding: 10px;
+    border-radius: 5px;
+    color: #000000;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

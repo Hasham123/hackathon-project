@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="resumeapp.css">
+    <script defer src="resumeapp.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section id="form-section">
+            <h2>Fill Out Your Resume Details</h2>
+            <form id="resume-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="education">Education:</label>
+                <textarea id="education" required></textarea>
+
+                <label for="work-experience">Work Experience:</label>
+                <textarea id="work-experience" required></textarea>
+
+                <label for="skills">Skills:</label>
+                <input type="text" id="skills" required>
+
+                <button type="submit">Generate Resume</button>
+            </form>
+        </section>
+
+        <section id="resume-section">
+            <h1 id="display-name" contenteditable="true">Your Name</h1>
+            <p id="display-email" contenteditable="true">Contact: your.email@example.com</p>
+            <h2>Education</h2>
+            <p id="display-education" contenteditable="true">Your Education Details</p>
+            <h2>Work Experience</h2>
+            <p id="display-work-experience" contenteditable="true">Your Work Experience</p>
+            <h2>Skills</h2>
+            <ul id="display-skills">
+                <li contenteditable="true">Skill 1</li>
+                <li contenteditable="true">Skill 2</li>
+                <li contenteditable="true">Skill 3</li>
+                <li contenteditable="true">Skill 4</li>
+                <li contenteditable="true">Skill 5</li>
+            </ul>
+        </section>
+
+            <h2>Shareable Link</h2>
+            <a id="share-link" target="_blank">Your unique resume URL will appear here</a>
+
+            <button id="download-pdf">Download Resume as PDF</button>
+        <!-- </section> -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+
+</body>
+</html>
